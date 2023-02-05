@@ -1,0 +1,39 @@
+
+
+
+.list__item-btn{
+    width: 90px;
+    height: 30px;
+    background: transparent;
+
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+
+.edit{
+    border: 1px solid blue;
+    color: darkblue;
+}
+.edit:hover{
+    background: rgba(0, 0, 255, 0.356);
+}
+
+.delete{
+    border: 1px solid darkred;
+    color: darkred;
+}
+.delete:hover{
+    background: rgba(139, 0, 0, 0.356);
+}
+
+
+.save{
+    border: 1px solid green;
+    color: darkgreen;
+}
+.save:hover{
+    background: rgba(0, 128, 0, 0.356);
+}

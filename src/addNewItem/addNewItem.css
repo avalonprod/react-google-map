@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.list{
+    display: flex;
+    gap: 3px;
+}
+
+.list .item {
+    list-style:none;
+    display: flex;
+    gap: 5px;
+}
+.list .item input{
+    border: 1px solid rgb(209, 209, 209);
+    height: 30px;
+    width: 240px;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+.add__item-button{
+    width: 90px;
+    height: 30px;
+    background-color: transparent;
+    color: darkgreen;
+    font-weight: 700;
+    font-size: 15px;
+    border: 1px solid darkgreen;
+    transition: all .2s;
+    cursor: pointer;
+}
+.add__item-button:hover{
+    background-color: rgba(0, 128, 0, 0.356);
+}
